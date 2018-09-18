@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB287FFC2150D64A00665470 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB287FFB2150D64A00665470 /* AppDelegate.swift */; };
+		DB287FFE2150D64A00665470 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB287FFD2150D64A00665470 /* ViewController.swift */; };
+		DB2880012150D64A00665470 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB287FFF2150D64A00665470 /* Main.storyboard */; };
+		DB2880032150D64B00665470 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB2880022150D64B00665470 /* Assets.xcassets */; };
+		DB2880062150D64B00665470 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB2880042150D64B00665470 /* LaunchScreen.storyboard */; };
+		DB2880112150D64B00665470 /* UITapGestureAndAlertTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2880102150D64B00665470 /* UITapGestureAndAlertTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB28800D2150D64B00665470 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB287FF02150D64A00665470 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB287FF72150D64A00665470;
+			remoteInfo = UITapGestureAndAlert;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB287FF82150D64A00665470 /* UITapGestureAndAlert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UITapGestureAndAlert.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB287FFB2150D64A00665470 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DB287FFD2150D64A00665470 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DB2880002150D64A00665470 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB2880022150D64B00665470 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB2880052150D64B00665470 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB2880072150D64B00665470 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB28800C2150D64B00665470 /* UITapGestureAndAlertTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITapGestureAndAlertTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB2880102150D64B00665470 /* UITapGestureAndAlertTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITapGestureAndAlertTests.swift; sourceTree = "<group>"; };
+		DB2880122150D64B00665470 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB287FF52150D64A00665470 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB2880092150D64B00665470 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB287FEF2150D64A00665470 = {
+			isa = PBXGroup;
+			children = (
+				DB287FFA2150D64A00665470 /* UITapGestureAndAlert */,
+				DB28800F2150D64B00665470 /* UITapGestureAndAlertTests */,
+				DB287FF92150D64A00665470 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB287FF92150D64A00665470 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB287FF82150D64A00665470 /* UITapGestureAndAlert.app */,
+				DB28800C2150D64B00665470 /* UITapGestureAndAlertTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB287FFA2150D64A00665470 /* UITapGestureAndAlert */ = {
+			isa = PBXGroup;
+			children = (
+				DB287FFB2150D64A00665470 /* AppDelegate.swift */,
+				DB287FFD2150D64A00665470 /* ViewController.swift */,
+				DB287FFF2150D64A00665470 /* Main.storyboard */,
+				DB2880022150D64B00665470 /* Assets.xcassets */,
+				DB2880042150D64B00665470 /* LaunchScreen.storyboard */,
+				DB2880072150D64B00665470 /* Info.plist */,
+			);
+			path = UITapGestureAndAlert;
+			sourceTree = "<group>";
+		};
+		DB28800F2150D64B00665470 /* UITapGestureAndAlertTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB2880102150D64B00665470 /* UITapGestureAndAlertTests.swift */,
+				DB2880122150D64B00665470 /* Info.plist */,
+			);
+			path = UITapGestureAndAlertTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB287FF72150D64A00665470 /* UITapGestureAndAlert */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB2880152150D64B00665470 /* Build configuration list for PBXNativeTarget "UITapGestureAndAlert" */;
+			buildPhases = (
+				DB287FF42150D64A00665470 /* Sources */,
+				DB287FF52150D64A00665470 /* Frameworks */,
+				DB287FF62150D64A00665470 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UITapGestureAndAlert;
+			productName = UITapGestureAndAlert;
+			productReference = DB287FF82150D64A00665470 /* UITapGestureAndAlert.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB28800B2150D64B00665470 /* UITapGestureAndAlertTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB2880182150D64B00665470 /* Build configuration list for PBXNativeTarget "UITapGestureAndAlertTests" */;
+			buildPhases = (
+				DB2880082150D64B00665470 /* Sources */,
+				DB2880092150D64B00665470 /* Frameworks */,
+				DB28800A2150D64B00665470 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB28800E2150D64B00665470 /* PBXTargetDependency */,
+			);
+			name = UITapGestureAndAlertTests;
+			productName = UITapGestureAndAlertTests;
+			productReference = DB28800C2150D64B00665470 /* UITapGestureAndAlertTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB287FF02150D64A00665470 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Ta Minh Tu";
+				TargetAttributes = {
+					DB287FF72150D64A00665470 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					DB28800B2150D64B00665470 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = DB287FF72150D64A00665470;
+					};
+				};
+			};
+			buildConfigurationList = DB287FF32150D64A00665470 /* Build configuration list for PBXProject "UITapGestureAndAlert" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB287FEF2150D64A00665470;
+			productRefGroup = DB287FF92150D64A00665470 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB287FF72150D64A00665470 /* UITapGestureAndAlert */,
+				DB28800B2150D64B00665470 /* UITapGestureAndAlertTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB287FF62150D64A00665470 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB2880062150D64B00665470 /* LaunchScreen.storyboard in Resources */,
+				DB2880032150D64B00665470 /* Assets.xcassets in Resources */,
+				DB2880012150D64A00665470 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB28800A2150D64B00665470 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB287FF42150D64A00665470 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB287FFE2150D64A00665470 /* ViewController.swift in Sources */,
+				DB287FFC2150D64A00665470 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB2880082150D64B00665470 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB2880112150D64B00665470 /* UITapGestureAndAlertTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB28800E2150D64B00665470 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB287FF72150D64A00665470 /* UITapGestureAndAlert */;
+			targetProxy = DB28800D2150D64B00665470 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB287FFF2150D64A00665470 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB2880002150D64A00665470 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB2880042150D64B00665470 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB2880052150D64B00665470 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB2880132150D64B00665470 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DB2880142150D64B00665470 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB2880162150D64B00665470 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UITapGestureAndAlert/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.david.UITapGestureAndAlert;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB2880172150D64B00665470 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UITapGestureAndAlert/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.david.UITapGestureAndAlert;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DB2880192150D64B00665470 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UITapGestureAndAlertTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.david.UITapGestureAndAlertTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UITapGestureAndAlert.app/UITapGestureAndAlert";
+			};
+			name = Debug;
+		};
+		DB28801A2150D64B00665470 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UITapGestureAndAlertTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.david.UITapGestureAndAlertTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UITapGestureAndAlert.app/UITapGestureAndAlert";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB287FF32150D64A00665470 /* Build configuration list for PBXProject "UITapGestureAndAlert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB2880132150D64B00665470 /* Debug */,
+				DB2880142150D64B00665470 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB2880152150D64B00665470 /* Build configuration list for PBXNativeTarget "UITapGestureAndAlert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB2880162150D64B00665470 /* Debug */,
+				DB2880172150D64B00665470 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB2880182150D64B00665470 /* Build configuration list for PBXNativeTarget "UITapGestureAndAlertTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB2880192150D64B00665470 /* Debug */,
+				DB28801A2150D64B00665470 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB287FF02150D64A00665470 /* Project object */;
+}
